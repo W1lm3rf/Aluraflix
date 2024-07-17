@@ -1,0 +1,19 @@
+.videoCard {
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+
+.videoCard-info img {
+    width: 370px;
+    height: 225px;
+}
+
+.videoCard-buttons {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: gray;
+    margin: 0;
+    color: black;
+    font-weight: 700;
+}

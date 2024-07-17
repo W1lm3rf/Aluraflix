@@ -1,0 +1,46 @@
+.banner {
+  box-sizing: border-box;
+  width: 100%;
+  height: 34rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  gap: 1rem;
+  background-image: url("/Img/banner.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  padding: 2rem;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(140, 1, 247, 0.1);
+  pointer-events: none;
+}
+
+.banner__content h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.banner__content p {
+  font-size: 1rem;
+  font-weight: 200;
+  padding: .8rem;
+  background-color: rgba(210, 205, 205, 0.611);
+  border-radius: 20px;
+  color: black;
+  font-weight: 600;
+}
+
+.banner-video img {
+  width: 23rem;
+}
